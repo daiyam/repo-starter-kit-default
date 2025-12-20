@@ -1,0 +1,177 @@
+# Status
+- name: S-needs-triage
+  color: d2dae1
+  description: "Status: triage is not complete: no `A-*` label, or no `P-*` for bugs/crashes"
+- name: S-needs-info
+  color: d2dae1
+  description: "Status: issue that needs more information from the user"
+- name: S-needs-repro
+  color: d2dae1
+  description: "Status: needs reproduction steps / someone to reproduce"
+- name: S-needs-research
+  color: d2dae1
+  description: "Status: requires further investigation"
+- name: S-needs-discussion
+  color: d2dae1
+  description: "Status: needs to be discussed before moving forward"
+- name: S-reproducible
+  color: d2dae1
+  description: "Status: steps to reproduce are included and a team member verified the issue"
+- name: S-accepted
+  color: faed49
+  description: "Status: approved for implementation or scheduled work"
+- name: S-planned
+  color: fbca04
+  description: "Status: planned for a future release or milestone"
+- name: S-current-iteration
+  color: fbca04
+  description: "Status: included in the current development iteration or sprint"
+- name: S-in-progress
+  color: fbca04
+  description: "Status: work has started"
+- name: S-needs-review
+  color: fbca04
+  description: "Status: awaiting review by maintainers or assigned reviewers"
+- name: S-needs-revision
+  color: fbca04
+  description: "Status: requires revisions in response to review feedback"
+- name: S-needs-tests
+  color: fbca04
+  description: "Status: requires additional tests to improve coverage"
+- name: S-validated
+  color: bfe5bf
+  description: "Status: confirmed by QA"
+- name: S-merged
+  color: bfe5bf
+  description: "Status: merged into the branch"
+- name: S-released
+  color: bfe5bf
+  description: "Status: included in a published release or deployment"
+- name: S-duplicate
+  color: ffffff
+  description: "Status: has already been reported"
+- name: S-wontfix/infeasible
+  color: ffffff
+  description: "Status: the changes that are needed to address the issue are not reasonably possible"
+- name: S-wontfix/not-reproducible
+  color: ffffff
+  description: "Status: insufficient information to fix or to reproduce the issue"
+- name: S-wontfix/obsolete
+  color: ffffff
+  description: "Status: the issue is no longer relevant due to changes in the product"
+- name: S-wontfix/intended-behavior
+  color: ffffff
+  description: "Status: the issue describes the expected behavior of the product under the reported circumstances"
+- name: S-blocked
+  color: e11d21
+  description: "Status: waiting for something external"
+- name: S-external
+  color: e11d21
+  description: "Status: problem exists outside of project scope"
+- name: S-on-hold
+  color: e11d21
+  description: "Status: on hold pending prerequisite work or decisions"
+- name: S-stale
+  color: ffffff
+  description: "Status: hasn't been updated in a long time"
+- name: S-abandoned
+  color: ffffff
+  description: "Status: abandoned or no longer pursued"
+- name: S-not-preapproved
+  color: ffffff
+  description: "Status: not pre-approved"
+
+# Priority
+- name: P-critical
+  color: 66eb5f
+  description: "Priority: must be addressed immediately"
+- name: P-high
+  color: 66eb5f
+  description: "Priority: high importance"
+- name: P-medium
+  color: 66eb5f
+  description: "Priority: medium importance"
+- name: P-low
+  color: 66eb5f
+  description: "Priority: low importance"
+
+# Type
+- name: T-bug
+  color: e11d21
+  description: "Type: bug - something isn't working as it's supposed to"
+- name: T-bug/crash
+  color: e11d21
+  description: "Type: bug that causes an application crash or process termination"
+- name: T-bug/regression
+  color: e11d21
+  description: "Type: bug that re-introduces previously fixed behavior (regression)"
+- name: T-problem
+  color: e11d21
+  description: "Type: neither a bug or feature request"
+- name: T-fix
+  color: e11d21
+  description: "Type: changes related to bug fixes"
+- name: T-feature
+  color: "009800"
+  description: "Type: new feature or request"
+- name: T-improvement
+  color: a62cff
+  description: "Type: non-breaking change that enhances functionality"
+- name: T-refactoring
+  color: a62cff
+  description: "Type: changes that neither fix a bug nor add a feature"
+- name: T-remodel
+  color: a62cff
+  description: "Type: breaking change that revises functionality"
+- name: T-proposal
+  color: a62cff
+  description: "Type: design or plan up for discussion before implementation"
+- name: T-revert
+  color: a62cff
+  description: "Type: reverts a previous commit"
+- name: T-maintenance
+  color: cc317c
+  description: "Type: non-functional refactors, build, or tooling work"
+- name: T-question
+  color: cc317c
+  description: "Type: seeking clarification, guidance, or information"
+
+# Area
+- name: A-build
+  color: fef2c0
+  description: "Area: build system (involving scripts, configurations or tools) and package dependencies"
+- name: A-ci
+  color: fef2c0
+  description: "Area: continuous integration and deployment system (involving scripts, configurations or tools)"
+- name: A-docs
+  color: fef2c0
+  description: "Area: documentation"
+- name: A-i18n
+  color: fef2c0
+  description: "Area: translation and localization"
+- name: A-perf
+  color: fef2c0
+  description: "Area: performance"
+- name: A-style
+  color: fef2c0
+  description: "Area: style changes that don't affect behavior (formatting, whitespace, lint fixes)"
+- name: A-test
+  color: fef2c0
+  description: "Area: adding missing tests or correcting existing tests"
+- name: A-vcs
+  color: fef2c0
+  description: "Area: version control system (involving scripts, configurations or tools)"
+
+# Meta
+- name: M-awesome
+  color: ffc0cb
+  description: "Meta: exemplary issue/PR from the community"
+- name: M-help-wanted
+  color: ffc0cb
+  description: "Meta: maintainers aren't planning to implement this; contributions welcome"
+- name: M-thanks
+  color: ffc0cb
+  description: "Meta: expressing gratitude"
+- name: M-for-community
+  color: ffc0cb
+  description: "Meta: community management, project goals, user contributions, etc"

@@ -1,0 +1,8 @@
+{
+	"taskExplorer.exclude": [
+		".husky",
+	],
+	"search.exclude": {
+		"package-lock.json": true,
+	},
+}

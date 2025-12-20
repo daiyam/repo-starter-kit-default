@@ -1,0 +1,34 @@
+{
+	"name": "@daiyam/repo-starter-kit-default",
+	"description": "Opinionated repo starter kit: default configs, issue labels, and templates",
+	"version": "0.0.0",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/daiyam/repo-starter-kit-default",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daiyam/repo-starter-kit-default.git"
+	},
+	"bugs": {
+		"url": "https://github.com/daiyam/repo-starter-kit-default/issues"
+	},
+	"scripts": {
+		"commit": "cz",
+		"prepare": "husky; fixpack || true",
+		"release": "release-it"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^19.7.1",
+		"@commitlint/config-conventional": "^19.7.1",
+		"commitizen": "^4.3.1",
+		"fixpack": "^4.0.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.4",
+		"release-it": "^18.1.2"
+	},
+	"keywords": []
+}
