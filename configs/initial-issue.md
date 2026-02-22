@@ -3,6 +3,9 @@ title: "README: Why users cannot create issues directly"
 labels:
   - A-docs
   - M-for-community
+close: completed
+pin: true
+lock: true
 ---
 
 Users are not allowed to create Issues directly

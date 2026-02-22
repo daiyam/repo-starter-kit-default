@@ -1,2 +1,8 @@
+newRepository: configs/new-repository-settings.yml
 labels: configs/labels.yml
 issue: configs/initial-issue.md
+categories: configs/categories.yml
+discussion: configs/initial-discussion.md
+order:
+- issue
+- discussion

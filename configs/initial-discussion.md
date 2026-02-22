@@ -1,5 +1,12 @@
 ---
 title: "[READ ME FIRST]: Discussion Rules"
+category: General
+labels:
+  - A-docs
+  - M-for-community
+close: resolved
+pin: true
+lock: true
 ---
 
 Welcome!
@@ -8,11 +15,11 @@ This is where users ask questions, propose suggestions, resolve their issues and
 
 There are 7 channels:
 
-- [Announcements]. Updates from maintainers. Only maintainers can post here. Highly moderated.
-- [Feature Requests, Ideas]. Share ideas for new features and discuss how they should be implemented.
-- [Issue Triage]. Report existing features that aren't working as expected.
-- [Questions & Answers]. Ask the community for help. Please search for issue tracker and previously asked questions before asking.
-- [General]. Chat about anything and everything here. Connect with others.
+- [Announcements](./categories/announcements). Updates from maintainers. Only maintainers can post here. Highly moderated.
+- [Feature Requests, Ideas](./categories/feature-requests-ideas). Share ideas for new features and discuss how they should be implemented.
+- [Issue Triage](./categories/issue-triage). Report existing features that aren't working as expected.
+- [Q&A](./categories/q-a). Ask the community for help. Please search for issue tracker and previously asked questions before asking.
+- [General](./categories/general). Chat about anything and everything here. Connect with others.
 
 Please make sure you understand and agree to these rules before posting, which are simplified in the interest of your time:
 
