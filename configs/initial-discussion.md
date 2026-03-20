@@ -35,6 +35,8 @@ Please make sure you understand and agree to these rules before posting, which a
 
 6. Users play a part in issue reproduction and developing feature requests. Team members could not always replicate the exact circumstances that led to an issue — just saying "it doesn't work" and leaving helps no one.
 
-7. Please take a few minutes to read our [Contributing guidelines](../blob/master/CONTRIBUTING.md).
+7. Use AI tools responsibly: disclose use, human-review, be brief.
 
-8. Follow our [Code of Conduct](../blob/master/CODE_OF_CONDUCT.md).
+8. Please take a few minutes to read our [Contributing guidelines](../blob/master/CONTRIBUTING.md).
+
+9. Follow our [Code of Conduct](../blob/master/CODE_OF_CONDUCT.md).

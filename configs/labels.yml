@@ -71,15 +71,15 @@
 - name: S-on-hold
   color: e11d21
   description: "Status: on hold pending prerequisite work or decisions"
-- name: S-stale
-  color: ffffff
-  description: "Status: hasn't been updated in a long time"
 - name: S-abandoned
   color: ffffff
   description: "Status: abandoned or no longer pursued"
 - name: S-not-preapproved
   color: ffffff
   description: "Status: not pre-approved"
+- name: S-stale
+  color: ffffff
+  description: "Status: hasn't been updated in a long time"
 
 # Priority
 - name: P-critical
@@ -163,15 +163,18 @@
   description: "Area: version control system (involving scripts, configurations or tools)"
 
 # Meta
+- name: M-ai-slop
+  color: ffc0cb
+  description: "Meta: AI slop"
 - name: M-awesome
   color: ffc0cb
   description: "Meta: exemplary issue/PR from the community"
+- name: M-for-community
+  color: ffc0cb
+  description: "Meta: community management, project goals, user contributions, etc"
 - name: M-help-wanted
   color: ffc0cb
   description: "Meta: maintainers aren't planning to implement this; contributions welcome"
 - name: M-thanks
   color: ffc0cb
   description: "Meta: expressing gratitude"
-- name: M-for-community
-  color: ffc0cb
-  description: "Meta: community management, project goals, user contributions, etc"
