@@ -175,6 +175,9 @@
 - name: M-help-wanted
   color: ffc0cb
   description: "Meta: maintainers aren't planning to implement this; contributions welcome"
+- name: M-prevent-stale
+  color: ffc0cb
+  description: "Meta: prevents inactive issue/PR from being closed due to inactivity"
 - name: M-thanks
   color: ffc0cb
   description: "Meta: expressing gratitude"
