@@ -1,0 +1,65 @@
+- name: branch - new
+  target: branch
+  enforcement: active
+  conditions:
+    ref_name:
+      include:
+        - ~ALL
+  rules:
+    - type: creation
+  bypass_actors:
+    - actor_id: 2 # Maintain
+      actor_type: RepositoryRole
+      bypass_mode: exempt
+    - actor_id: 29110 # Dependabot
+      actor_type: Integration
+      bypass_mode: exempt
+
+- name: branch - all
+  target: branch
+  enforcement: active
+  conditions:
+    ref_name:
+      include:
+        - ~ALL
+  rules:
+    - type: required_signatures
+
+- name: branch - master
+  target: branch
+  enforcement: active
+  conditions:
+    ref_name:
+      include:
+        - refs/heads/master
+  rules:
+    - type: deletion
+    - type: non_fast_forward
+    - type: required_signatures
+
+- name: tag - new
+  target: tag
+  enforcement: active
+  conditions:
+    ref_name:
+      include:
+        - ~ALL
+  rules:
+    - type: creation
+  bypass_actors:
+    - actor_id: 2 # Maintain
+      actor_type: RepositoryRole
+      bypass_mode: exempt
+
+- name: tag - all
+  target: tag
+  enforcement: active
+  conditions:
+    ref_name:
+      include:
+        - ~ALL
+  rules:
+    - type: deletion
+    - type: non_fast_forward
+    - type: required_signatures
+    - type: update

@@ -1,0 +1,5 @@
+auto-close-issues: false
+automated-security-fixes: true
+immutable-releases: true
+max-updates-per-push: 2
+vulnerability-alerts: true

@@ -1,8 +1,12 @@
-newRepository: configs/new-repository-settings.yml
-labels: configs/labels.yml
-issue: configs/initial-issue.md
 categories: configs/categories.yml
 discussion: configs/initial-discussion.md
+environments: configs/environments.yml
+issue: configs/initial-issue.md
+labels: configs/labels.yml
+newRepository: configs/new-repository-settings.yml
+rulesets: configs/rulesets.yml
+settings: configs/settings.yml
+
 order:
 - issue
 - discussion

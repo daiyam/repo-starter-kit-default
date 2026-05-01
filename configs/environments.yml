@@ -1,0 +1,11 @@
+- name: publish
+  can_admins_bypass: false
+  prevent_self_review: false
+  reviewers:
+    - type: user
+      id: self
+  branch_policies:
+    - type: branch
+      name: master
+    - type: tag
+      name: v*
