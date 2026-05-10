@@ -8,8 +8,6 @@ pin: true
 lock: true
 ---
 
-Users are not allowed to create Issues directly
-
 Users are not allowed to create Issues directly in this repository - we ask that you create a [Discussion] first.
 
 This project **does not use the issue tracker for discussion or feature requests**. Instead, we use GitHub [discussions] for that. Once a discussion reaches a point where a well-understood, actionable item is identified, it is moved to the issue tracker. **This pattern makes it easier for maintainers or contributors to find issues to work on since every issue is ready to be worked on**.
